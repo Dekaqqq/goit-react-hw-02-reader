@@ -27,7 +27,7 @@
     "rules": {
         "no-console": 1,
         "linebreak-style": ["error", "unix"],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
         "jsx-a11y/no-onchange": 0,
         "import/no-extraneous-dependencies": [
             "error",
@@ -37,7 +37,9 @@
             2,
             "always",
             { "ignoreClassFields": true }
-        ]
+        ],
+        "import/extensions": "off",
+        "react/state-in-constructor": 0
     },
     "globals": {
         "window": true,
