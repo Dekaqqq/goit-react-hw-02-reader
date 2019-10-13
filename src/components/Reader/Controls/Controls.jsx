@@ -9,7 +9,7 @@ const Controls = ({ changeIndex, activeIndex, itemsLength }) => {
                 type="button"
                 className={styles.button}
                 onClick={changeIndex}
-                disabled={!activeIndex && true}
+                disabled={!activeIndex}
                 name="prev"
             >
                 Назад
@@ -18,7 +18,7 @@ const Controls = ({ changeIndex, activeIndex, itemsLength }) => {
                 type="button"
                 className={styles.button}
                 onClick={changeIndex}
-                disabled={!(activeIndex < itemsLength - 1) && true}
+                disabled={!(activeIndex < itemsLength - 1)}
                 name="next"
             >
                 Вперед
