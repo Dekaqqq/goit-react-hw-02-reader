@@ -77,7 +77,7 @@ class Reader extends Component {
 
         return (
             <div className={styles.reader}>
-                <Publication item={items[activeIndex]} />
+                <Publication {...items[activeIndex]} />
                 <Counter
                     activeIndex={publicationNumber}
                     itemsLength={itemsLength}
