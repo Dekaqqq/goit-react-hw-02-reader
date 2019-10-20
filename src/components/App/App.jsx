@@ -1,11 +1,23 @@
 import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Reader from '../Reader/Reader.jsx';
 import publications from '../../assets/publications.json';
 
 const App = () => (
     <div>
-        <Reader items={publications} />
+        <Redirect
+            to={{
+                pathname: '/reader',
+                search: '?item=1',
+            }}
+        />
+        <Switch>
+            <Route
+                path="/reader"
+                render={props => <Reader items={publications} {...props} />}
+            />
+        </Switch>
     </div>
 );
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import styles from './Publication.module.css';
 
@@ -20,4 +21,4 @@ Publication.propTypes = {
     }).isRequired,
 };
 
-export default Publication;
+export default withRouter(Publication);
