@@ -6,17 +6,15 @@ import publications from '../../assets/publications.json';
 
 const App = () => (
     <div>
-        <Redirect
-            to={{
-                pathname: '/reader',
-                search: '?item=1',
-            }}
-        />
         <Switch>
             <Route
                 path="/reader"
                 render={props => <Reader items={publications} {...props} />}
             />
+            <Route path="/:something">
+                <Redirect to="/reader" component={Reader} />
+            </Route>
+            <Redirect exact from="/" to="/reader" component={Reader} />
         </Switch>
     </div>
 );
