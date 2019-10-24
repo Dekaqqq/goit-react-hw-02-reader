@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/goit-react-hw-02-reader/static/css/main.cd6ccb59.chunk.css",
-    "main.js": "/goit-react-hw-02-reader/static/js/main.f266fd2d.chunk.js",
-    "main.js.map": "/goit-react-hw-02-reader/static/js/main.f266fd2d.chunk.js.map",
+    "main.js": "/goit-react-hw-02-reader/static/js/main.e576b5ff.chunk.js",
+    "main.js.map": "/goit-react-hw-02-reader/static/js/main.e576b5ff.chunk.js.map",
     "runtime~main.js": "/goit-react-hw-02-reader/static/js/runtime~main.19bc6148.js",
     "runtime~main.js.map": "/goit-react-hw-02-reader/static/js/runtime~main.19bc6148.js.map",
     "static/js/2.986ac7da.chunk.js": "/goit-react-hw-02-reader/static/js/2.986ac7da.chunk.js",
     "static/js/2.986ac7da.chunk.js.map": "/goit-react-hw-02-reader/static/js/2.986ac7da.chunk.js.map",
     "index.html": "/goit-react-hw-02-reader/index.html",
-    "precache-manifest.3810d6d2844f68777742367d85da12a8.js": "/goit-react-hw-02-reader/precache-manifest.3810d6d2844f68777742367d85da12a8.js",
+    "precache-manifest.67c44c9fbddb0993c6c3e2848c5ed42e.js": "/goit-react-hw-02-reader/precache-manifest.67c44c9fbddb0993c6c3e2848c5ed42e.js",
     "service-worker.js": "/goit-react-hw-02-reader/service-worker.js",
     "static/css/main.cd6ccb59.chunk.css.map": "/goit-react-hw-02-reader/static/css/main.cd6ccb59.chunk.css.map"
   }
